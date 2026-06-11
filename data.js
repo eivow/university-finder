@@ -13,12 +13,14 @@ const universities = [
     { id: 1, countryId: 1, name: 'University of Oxford', difficulty: 'hard', description: 'One of the world\'s oldest universities' },
     { id: 2, countryId: 1, name: 'University of Cambridge', difficulty: 'hard', description: 'Elite research university' },
     { id: 3, countryId: 1, name: 'LSE', difficulty: 'hard', description: 'London School of Economics' },
+    { id: 16, countryId: 1, name: 'University of Bolton', difficulty: 'easy', description: 'Modern university with practical focus and diverse programs' },
     
     { id: 4, countryId: 2, name: 'Universidad de Barcelona', difficulty: 'medium', description: 'Spain\'s leading university' },
     { id: 5, countryId: 2, name: 'Universidad Autónoma de Madrid', difficulty: 'medium', description: 'Top research institution' },
     
     { id: 6, countryId: 3, name: 'University of Milan', difficulty: 'medium', description: 'Leading Italian university' },
     { id: 7, countryId: 3, name: 'Politecnico di Milano', difficulty: 'hard', description: 'Top engineering university' },
+    { id: 17, countryId: 3, name: 'University of Bologna', difficulty: 'medium', description: 'One of Europe\'s oldest universities with strong traditions' },
     
     { id: 8, countryId: 4, name: 'Sapienza University of Rome', difficulty: 'medium', description: 'Italy\'s oldest university' },
     { id: 9, countryId: 4, name: 'LUISS Guido Carli', difficulty: 'medium', description: 'Leading business school' },
@@ -44,6 +46,15 @@ const details = [
         usefulInfo: ['Historic university with strong alumni network', 'Scholarship opportunities available', 'Oxbridge tutoring system']
     },
     {
+        universityId: 16,
+        tuitionFee: '£9,000 - £13,000 per year',
+        rentCost: '£400 - £650 per month',
+        otherExpenses: ['Food: £100-200/month', 'Transportation: £25-45/month', 'Books: £200-350/year'],
+        minGrade: '2.5+ GPA or equivalent',
+        testScores: 'IELTS 6.0+',
+        usefulInfo: ['Affordable UK option', 'Strong industry connections', 'Practical, work-oriented education', 'Smaller class sizes', 'Modern campus facilities']
+    },
+    {
         universityId: 4,
         tuitionFee: '€3,000 - €10,000 per year',
         rentCost: '€400 - €700 per month',
@@ -60,6 +71,15 @@ const details = [
         minGrade: '3.0+ GPA',
         testScores: 'IELTS 5.5+',
         usefulInfo: ['Ancient university in historic city', 'Affordable cost of living', 'Rich cultural experience']
+    },
+    {
+        universityId: 17,
+        tuitionFee: '€2,500 - €7,000 per year',
+        rentCost: '€300 - €550 per month',
+        otherExpenses: ['Food: €80-150/month', 'Transportation: €20-35/month', 'Books: €200-350/year'],
+        minGrade: '3.0+ GPA',
+        testScores: 'IELTS 5.5+',
+        usefulInfo: ['Europe\'s oldest university (founded 1088)', 'Vibrant student city atmosphere', 'Excellent value for money', 'Strong academic traditions', 'Great food and culture scene', 'Easy access to other Italian cities']
     },
     {
         universityId: 10,
